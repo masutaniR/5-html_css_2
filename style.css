@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #ec715f;
+}
+.header-box {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+.logo {
+  height: 70px;
+  margin-right: auto;
+}
+nav {
+  margin-left: auto;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  padding: 0 30px;
+  line-height: 70px;
+  font-size: 16px;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fafafa;
+}
