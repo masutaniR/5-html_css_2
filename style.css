@@ -33,3 +33,19 @@ nav {
   text-decoration: none;
   color: #fafafa;
 }
+#mv {
+  height: 650px;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-position: bottom;
+  background-size: cover;
+}
+.mv-heading {
+  padding: 200px 0 10px 0;
+  color: #fafafa;
+  font-size: 64px;
+}
+.mv-text {
+  color: #fafafa;
+  font-size: 20px;
+}
