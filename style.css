@@ -171,10 +171,46 @@ nav {
   width: 512px;
   text-align: start;
 }
-.name-skill-heading {
+.name-skill-heading,
+.mail-tel-heading,
+.sns-heading {
   font-size: 20px;
   margin-bottom: 5px;
 }
 .name-skill-text {
   margin-bottom: 20px;
+}
+.c-container {
+  width: 800px;
+}
+.info-box {
+  display: flex;
+  text-align: start;
+}
+.mail-tel-box {
+  width: 400px;
+}
+.mail-tel-subbox {
+  width: 150px;
+  margin: 0 auto;
+}
+.mail-tel-heading:last-of-type {
+  margin-top: 20px;
+}
+.link-text {
+  color: #000;
+}
+.sns-box {
+  width: 400px;
+}
+.sns-subbox {
+  width: 190px;
+  margin: 0 auto;
+}
+.fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.fab:last-child {
+  margin-right: 0;
 }
