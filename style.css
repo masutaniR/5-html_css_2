@@ -40,6 +40,9 @@ nav {
   background-position: bottom;
   background-size: cover;
 }
+.mv-text-box {
+  margin: 0 auto;
+}
 .mv-heading {
   padding: 200px 0 10px 0;
   color: #fafafa;
@@ -147,7 +150,6 @@ nav {
 }
 .s-text {
   text-align: start;
-  padding: 0;
 }
 #profile {
   background-color: #eceff1;
@@ -179,6 +181,9 @@ nav {
 }
 .name-skill-text {
   margin-bottom: 20px;
+}
+.name-skill-text:last-of-type {
+  margin-bottom: 0;
 }
 .c-container {
   width: 800px;
@@ -224,4 +229,110 @@ footer {
   line-height: 60px;
   font-size: 16px;
   color: #fafafa;
+}
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+  .header-box {
+    width: 90%;
+  }
+  .logo {
+    height: 50px;
+  }
+  .hamburger-menu {
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 5px auto;
+    border: 1px solid #fafafa;
+  }
+  .menu-line {
+    height: 2px;
+    width: 30px;
+    background-color: #fafafa;
+    margin: 5px auto;
+  }
+  .menu-line:first-child {
+    margin-top: 12px;
+  }
+  .menu-line:last-child {
+    margin-bottom: 12px;
+  }
+  nav {
+    display: none;
+  }
+  #mv {
+    background-image: url(img/code.png);
+    background-position: center;
+  }
+  .mv-text-box,
+  .pf-container,
+  .f-container,
+  .p-container,
+  .c-container {
+    width: 90%;
+  }
+  .mv-heading {
+    font-size: 40px;
+  }
+  .mv-text {
+    font-size: 18px;
+  }
+  .pf-img-box {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .pf-img {
+    margin: 0 0 10px 0;
+  }
+  .pf-img:nth-last-child(-n + 3) {
+    margin-bottom: 10px;
+  }
+  .pf-img:last-child {
+    margin-bottom: 0;
+  }
+  .pf-img1,
+  .pf-img3,
+  .pf-img5 {
+    display: none;
+  }
+  .strength-box {
+    display: block;
+    width: 90%;
+  }
+  .strength {
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+  .strength:last-child {
+    margin-bottom: 0;
+  }
+  .p-box {
+    width: 90%;
+    display: block;
+  }
+  .my-icon-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .name-skill-box {
+    width: 100%;
+  }
+  .info-box {
+    display: block;
+    text-align: center;
+  }
+  .mail-tel-box,
+  .mail-tel-subbox,
+  .sns-box,
+  .sns-subbox {
+    width: 100%;
+  }
+  .sns-heading {
+    margin-top: 20px;
+  }
+  .fab {
+    margin-right: 8px;
+  }
 }
